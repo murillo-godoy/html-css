@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, gray, black);
+        }
+
+        main {
+            background-color: beige;
+            padding: 20px;
+            border-radius: 0px 0px 10px 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+            margin-top: -7px;
+        }
+
+        a.navegador {
+            background-color: rgba(174, 174, 174, 0.769);
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        a.navegador:hover {
+            text-decoration: underline;
+            background-color: rgb(57, 60, 135);
+        }
+
+        p {
+            color: rgb(17, 17, 231);
+        }
+
+        main > p {
+            color: red;
+        }
+
+        img {
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <nav>
+            <a href="#" class="navegador">Clique aqui</a>
+        </nav>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum officiis amet, vitae consequuntur, omnis obcaecati velit tenetur voluptatum porro maiores? Placeat numquam quaerat officia quis et, ex consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium suscipit officiis quasi. Numquam aperiam voluptas quis temporibus minus illo, explicabo dolorum ea alias iure in molestias nulla voluptatem vitae placeat.</p>
+        <picture>
+            <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dolorum officiis amet, vitae consequuntur, omnis obcaecati velit tenetur voluptatum porro maiores? Placeat numquam quaerat officia quis et, ex consectetur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium suscipit officiis quasi. Numquam aperiam voluptas quis temporibus minus illo, explicabo dolorum ea alias iure in molestias nulla voluptatem vitae placeat.</p>
+    </main>
+</body>
+</html>
